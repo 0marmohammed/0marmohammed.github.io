@@ -1,0 +1,82 @@
+
+
+
+body {
+    background-image:url("back4.jpg");
+	background-repeat:no-repeat;
+	background-position : center;
+	background-attachment : auto;
+	font-family : sans-serif;
+	padding : 20px;
+
+}
+h2 {
+    color: grey;
+    font-size: 30pt;
+	text-align: center;
+}
+
+p {
+    border-style: solid;
+    border-color: grey;
+    border-top-style: line;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    
+    background-position: center;
+    background-size: contain;
+    margin: 0 0 25px;
+	color : black;
+	text-align : center;
+	padding : 20px;
+}
+
+
+
+table,th,td{
+
+	border: 2px solid black;
+	border-collapse:collapse;
+	table-layout: fixed;
+	text-align: center;
+	padding:15px;
+	width :60%;
+}
+th{
+	background-color : grey;
+	color : white;	
+
+
+}
+tr:nth-child(even) {background-color: #f2f2f2}
+
+
+
+
+
+
+
+.l1 {
+	
+    height: 26px;
+    padding: 20px;
+}
+
+.R1 {
+    float:left;
+    margin: 10px;
+    -webkit-transition: .2s ease;
+	transition: .2s ease;
+
+}
+.R1:hover {
+    -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+
+}
+
+
+
+
